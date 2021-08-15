@@ -37,7 +37,15 @@ values (3,'Qualidade')
 
 insert into tb_categoria (codigo, descricao)
 values (4,'Processos')
+```
+## Configure seu arquivo application.properties:
+```sh
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 
-## Configure seu arquivo
+spring.datasource.url= jdbc:postgresql://localhost:5432/postgres
+spring.datasource.username=postgres
+spring.datasource.password=adm
+spring.jpa.hibernate.ddl-auto=update
+```
 
-
+Pronto! agora execute o projeto
