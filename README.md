@@ -1,7 +1,5 @@
 # avaliacao-cast-java
 
-# avaliacao-cast-java
-
 Api java spring-boot com JPA
 
 ## Banco de dados Postgresql
